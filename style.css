@@ -1,0 +1,139 @@
+.main{
+    background-color: hsl(226, 43%, 10%);
+    text-align: center;
+    color: white;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Profile Display */
+.profile{
+    width: 840em;
+    height: 25em;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+    padding-left: 25px;
+    position: relative;
+    top: 18rem;
+    left: 10rem;
+}
+
+.image-jeremy {
+    width: 80px;
+    height: 80px;
+    border: solid white 3px;
+    border-radius: 55px;
+    position: relative;
+    top: 3rem;
+    right: 5rem;
+}
+
+.title{
+ font-size: 20px;
+ font-weight: 300;
+ text-align: left;
+ white-space: nowrap;
+ position: relative;
+ top: 28rem;
+ right: 6rem;
+}
+
+.name{
+ font-size: 45px;
+ font-weight: 300;
+ position: relative;
+ top: 28rem;
+ right: 12rem;
+}
+
+/* Tab Display */
+.tab{
+    width: 930em;
+    height: 15em;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: 40rem;
+    right: 22.2rem;
+    z-index: -5;
+}
+
+.tabinfo{
+    position: relative;
+    top: .5rem;
+    left: 4rem;
+    text-align: left;
+}
+
+.dailyinfo{
+    font-size: 18px;
+    position: relative;
+    top:5rem;
+    right: 2rem;
+}
+
+.weeklyinfo{
+    font-size: 18px;
+    position: relative;
+    top:5rem;
+    right: 2rem;
+}
+
+.monthlyinfo{
+    font-size: 18px;
+    position: relative;
+    top:5rem;
+    right: 2rem;
+}
+
+/* Card Displays */
+
+.workcard{
+    width: 950rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: 21rem;
+    right: 20rem;
+}
+
+.playcard {
+    width: 950rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: 21rem;
+    right: 18rem;
+}
+
+.studycard {
+    width: 950rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: 21rem;
+    right: 16rem;
+}
+
+.exercisecard {
+    width: 250rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    /* position: relative;
+    top: 38rem;
+    right: 50rem; */
+}
+
+.socialcard {
+    width: 250rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    /* position: relative;
+    top: 38rem;
+    right: 48rem; */
+}
